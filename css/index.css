@@ -1,0 +1,174 @@
+body{
+  font-family: 'Roboto Slab', serif;
+  margin: 0;
+  width: 100%;
+}
+
+header{
+  background: #c5c5c5;
+  padding: 20px 0;
+}
+
+.caixa{
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+}
+
+nav{
+  width: 100%;
+  position: relative;
+  bottom: 0;
+  margin: auto 0;
+}
+
+nav li{
+   display: inline;
+   margin: 50px auto;
+   padding: .5rem;
+}
+nav li a{
+text-transform: uppercase;
+font-size: 20px;
+font-weight: normal;
+color: black;
+text-decoration: none;
+transition: .05s;
+}
+nav li a:hover{
+  transition: .05s;
+  color: #ad5706;
+  font-weight: bold;
+}
+
+.banner{
+  width: 100%;
+}
+
+.main{
+  padding: 0;
+  background: #fff;
+  width: 100%;
+  margin: 0 auto;
+}
+.main p{
+  font-size: 1rem;
+  line-height: 1.5;
+  text-align: justify;
+  margin: 0 5% 1rem;
+}
+.main strong{
+  font-weight: bold;
+}
+#missao{
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.utensilios{
+  width: 180px;
+  float: left;
+  margin: 0 20px 20px 5%;
+}
+.maintitle{
+  color: #271300;
+  font-weight: bold;
+  text-align: center;
+  font-size: 2rem;
+  padding: 2rem;
+  clear: left;
+  text-shadow: #ad5706 1px 1px 3px;
+}
+.maintitle::before{
+content: "💈 ";
+}
+.maintitle::after{
+  content: " 💈";
+}
+.map{
+  background: linear-gradient(180deg, #fff, #b6b6b6);
+}
+.map p{
+  font-size: 1rem;
+  line-height: 1.5;
+  text-align: justify;
+  margin: 0 5% 1rem;
+}
+.map strong{
+  font-weight: 500;
+  font-size: 1.2rem;
+}
+.beneficios{
+background: linear-gradient(0deg, #dddddd, #b6b6b6);
+width: 100%;
+}
+.benecontent{
+  margin: 0 auto;
+  width: 45%;
+}
+.beneimg{
+  width: 55%; 
+  box-shadow: black 5px 5px 5px;
+  transition: 0.05s;
+}
+.beneimg:hover{
+  transition: 0.05s;
+  opacity: 0.5;
+}
+.benelist{
+  display: inline-block;
+  width: 45%;
+  vertical-align: top;
+}
+.benelist li{
+  text-align: center;
+  line-height: 2;
+  font-size: 1rem;
+  font-style: italic;
+}
+.benelist li::before{
+  content: "✂ ";
+}
+.video{
+  width: 60%; 
+  height: 23rem;
+  margin: 0 auto;
+  padding: 1rem 0;
+}
+footer{
+margin: 0;
+width: 100%;
+background: #c5c5c5;
+}
+footer img{
+  display: block;
+  margin: 0 auto;
+  width: 150px;
+}
+.copy{
+font-size: 1rem;
+font-weight: 500;
+text-align: center;
+padding: 0 auto 1rem auto;
+}
+@media screen and (max-width: 585px){
+  .caixa, .main, .benecontent, .video{
+  width: auto;
+}
+  h1{
+    text-align: center;
+  }
+  h1 img, footer img{
+    width: 30%;
+  }
+  nav{
+    position: static;
+    text-align: center;
+  }
+  .beneimg, .benelist{
+    width: 100%;
+  }
+  .maintitle{
+    font-size: 25px;
+  }
+}
