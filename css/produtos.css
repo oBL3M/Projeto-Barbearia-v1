@@ -99,4 +99,15 @@ footer{
       position: static;
       text-align: center;
     }
+    .produtos{
+      width: 100%;
+      text-align:center;
+   }
+  
+    .produtos li{
+      width: 90%;
+      margin: auto;
+      display: block;
+      margin-bottom: 15px;   
+    } 
   }
